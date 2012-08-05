@@ -1,0 +1,30 @@
+{
+    "name": "q-mongodb",
+    "version": "0.0.1",
+    "author" : "Brian Hein <brian@cannedcoding.com>",
+    "description" : "Q (promises) wrapper for the mongodb node.js package",
+    "contributors" : [
+        {
+            "name" : "Brian Hein",
+            "email" : "brian@cannedcoding.com"
+        }
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/canned/QMongoDB.git"
+    },
+    "main" : "./q-mongodb.js",
+    "keywords" : [
+        "Q",
+        "promises",
+        "MongoDB"
+    ],
+    "dependencies": {
+        "mongodb": "*",
+        "q" : "*"
+    },
+    "engines": {
+        "node": ">=0.6.0"
+    },
+    "license": "MIT"
+}
