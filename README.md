@@ -7,6 +7,11 @@ well as accessing collections (creating them if need be).  If you query for the 
 lifetime of your node app, you'll be handed the same open db object (unless you explicitly close the db with a call to
 closeAll()).
 
+Installation
+============
+
+    npm install q-mongodb
+
 Usage
 =====
 
